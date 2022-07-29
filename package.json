@@ -1,0 +1,36 @@
+{
+  "name": "aws-codeartifact-semantic-release-example",
+  "version": "1.0.0",
+  "description": "Example project using semantic-release with AWS CodeArtifact for publishing workflow",
+  "main": "index.js",
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aws-samples/aws-codeartifact-semantic-release-example.git"
+  },
+  "author": {
+    "name": "Ryan Sonshine",
+    "email": "ryansonshine@users.noreply.github.com",
+    "url": "https://github.com/ryansonshine"
+  },
+  "license": "MIT-0",
+  "bugs": {
+    "url": "https://github.com/aws-samples/aws-codeartifact-semantic-release-example/issues"
+  },
+  "homepage": "https://github.com/aws-samples/aws-codeartifact-semantic-release-example#readme",
+  "devDependencies": {
+    "@ryansonshine/commitizen": "^4.2.8",
+    "@ryansonshine/cz-conventional-changelog": "^3.3.4",
+    "husky": "^8.0.1",
+    "semantic-release": "^19.0.3",
+    "semantic-release-codeartifact": "^2.0.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@ryansonshine/cz-conventional-changelog"
+    }
+  }
+}
