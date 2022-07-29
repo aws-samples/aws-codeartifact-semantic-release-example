@@ -26,7 +26,7 @@
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
     "husky": "^8.0.1",
     "semantic-release": "^19.0.3",
-    "semantic-release-codeartifact": "^2.0.6"
+    "semantic-release-codeartifact": "^2.0.7"
   },
   "config": {
     "commitizen": {
