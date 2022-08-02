@@ -52,6 +52,8 @@ for publishing to CodeArtifact.
 ## Related Resources
 
 - [Semantic Release: How does it work?][semantic-release-how-does-it-work]
+- [Semantic Release Code Artifact][semantic-release-codeartifact]
+- [Semantic Versioning 2.0.0][semver]
 
 ## Security
 
