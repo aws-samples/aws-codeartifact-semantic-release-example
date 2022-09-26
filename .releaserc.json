@@ -5,8 +5,8 @@
     "@semantic-release/release-notes-generator",
     ["semantic-release-codeartifact", {
       "tool": "npm",
-      "domain": "my-domain",
-      "repository": "my-repo"
+      "domain": "aws",
+      "repository": "sample-aws"
     }],
     "@semantic-release/npm",
     "@semantic-release/github"
